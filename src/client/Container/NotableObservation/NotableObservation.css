@@ -1,0 +1,73 @@
+
+.login-page {
+    margin: auto;
+    background: #bee0f5;
+    height: 89vh;
+    display: flex;
+}
+.form_input {
+    width: 400px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 26px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form_input input{
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form_input input[type=button]{
+    text-transform: uppercase;
+    outline: 0;
+    background: #34495e;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.data {
+    margin: auto;
+    width: max-content;
+    text-align: center;
+}
+
+table.rwd-table {
+    background: #34495E;
+    color: #fff;
+    border-radius: .4em;
+    overflow: hidden;
+    border-color: #506479;
+    width: 600px;
+}
+.rwd-table td {
+    padding: 0.5em;
+    color: #bee0f5;
+}
+.rwd-table th{
+    padding: 10px;
+}
+
+.pagination{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.ant-pagination-item-active {
+    font-weight: 500;
+    background: #34495e !important;
+    color: #fff !important;
+    border-color: #1890ff;
+}
