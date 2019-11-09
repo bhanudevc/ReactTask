@@ -78,8 +78,8 @@ class NotableObservation extends Component{
         return (
            <div className="login-page">
             <div className="form_input">
-                <div><input type="number" name="latitude" value={latitude}  onChange={this.onHandleChange.bind(this)} step="any" /></div>
-                <div><input type="text" name="longitude" value={longitude}  onChange={this.onHandleChange.bind(this)} step="any"/></div>
+                <div><input type="number" name="latitude" placeholder="Latitude" value={latitude}  onChange={this.onHandleChange.bind(this)} step="any" /></div>
+                <div><input type="text" name="longitude" placeholder="Longitude" value={longitude}  onChange={this.onHandleChange.bind(this)} step="any"/></div>
                 <div><input type="button" value="Submit" onClick={this.onClickHandler.bind(this)}/></div>
                 <div><input type="button" value="Fetch Current Location" onClick={this. getMyLocation.bind(this)}/></div>
             </div>
